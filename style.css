@@ -1,0 +1,88 @@
+body{
+    background-color: #d3cdcd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1,h2,h3{
+    color: black;
+}
+
+/* Encabezado */
+header {
+    background-image: url('assets/header_back.jpg');
+    background-color: #0d1b2a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #14213d;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+}
+
+header h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #14213d;
+    margin-top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #14213d;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00b4b8;
+}
+
+
+/*Contenido*/
+main{
+    padding: 20px;
+}
+
+section, article{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/*Footer*/
+footer{
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.fab{
+    color: white;
+    font-size: 1.5em;
+}
